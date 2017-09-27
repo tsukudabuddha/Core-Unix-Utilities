@@ -85,11 +85,17 @@ Challenges within each section are meant to be solved in order.
 ### Files
 
 1.  Navigate to the directory `Animals`
+    - `cd Animals`
 1.  Print the contents of the file `Cats.txt`
+    - `cat Cats.txt`
 1.  Print the contents of both files `Cats.txt` and `Dogs.txt`
+    - `cat Cats.txt Dogs.txt`
 1.  Count the words in the file `Cats.txt`
+    - `wc Cats.txt`
 1.  Count the words in all files with the extension `.txt`
+    - `wc *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
+    
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
