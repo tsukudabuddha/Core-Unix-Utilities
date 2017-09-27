@@ -54,13 +54,21 @@ Challenges within each section are meant to be solved in order.
     - `echo hello world`
     - `echo "hello world"`
 1.  Print a variable value, like `$USER` or `$PATH`
-    - ``
+    - `echo $USER`
+    - `echo $PATH`
 1.  Set a variable `NAME` equal to your first name, then print its value
+    - `NAME=Andrew`
+    - `echo $NAME`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
+    - `FULL_NAME=Andrew\ Tsukuda`
 1.  Print all environment variables (names and values)
+    - `printenv`
 1.  Make an alias named `hello` that prints `Hello world`
+    - `alias hello="echo hello world"`
 1.  Make an alias named `gocode` that navigates to your code directory
+    - `alias gocode="cd ~/Documents/Github/"`
 1.  Print all aliases (names and values)
+    - `alias`
 
 ### Getting Help
 
