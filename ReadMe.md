@@ -73,8 +73,14 @@ Challenges within each section are meant to be solved in order.
 ### Getting Help
 
 1.  Print what options a command accepts, like `bash` or `python`
+    - `bash --help`
+    - `python --help`
 1.  Read the manual for a command, like `echo` or `ls`
+    - `man echo`
+    - `man ls`
 1.  Print the file path to a command, like `bash` or `python`
+    - `which python3`
+    - `which bash`
 
 ### Files
 
