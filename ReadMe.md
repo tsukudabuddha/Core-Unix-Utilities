@@ -61,8 +61,10 @@ Challenges within each section are meant to be solved in order.
     - `echo $NAME`
 1.  Set a variable `FULL_NAME` equal to your full name, then print its value
     - `FULL_NAME=Andrew\ Tsukuda`
+    - `FULL_NAME="Andrew Tsukuda"`
 1.  Print all environment variables (names and values)
     - `printenv`
+    - `env`
 1.  Make an alias named `hello` that prints `Hello world`
     - `alias hello="echo hello world"`
 1.  Make an alias named `gocode` that navigates to your code directory
