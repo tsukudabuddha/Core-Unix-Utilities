@@ -95,17 +95,27 @@ Challenges within each section are meant to be solved in order.
 1.  Count the words in all files with the extension `.txt`
     - `wc *.txt`
 1.  Copy the file `Dogs.txt` to a new file `BabyDogs.txt`
-    
+    - `cp Dogs.txt BabyDogs.txt`
 1.  Rename the file `BabyDogs.txt` to `Puppies.txt`
+    - `mv BabyDogs.txt Puppies.txt`
 1.  Make a new directory named `Shelter` inside `Animals`
+    - `mkdir Animals/Shelter`
 1.  Move the file `Puppies.txt` into the directory `Shelter`
+    - `mv Puppies.txt Shelter/`
 1.  Copy the file `Cats.txt` to `Kittens.txt` inside `Shelter`
+    - `cp Cats.txt Shelter/Kittens.txt`
 1.  List the files within the directory `Shelter`
+    - `ls Animals/Shelter/`
 1.  Count the words in all `.txt` files inside `Shelter`
+    - `wc Animals/Shelter/*.txt`
 1.  Try to remove the directory `Shelter` (this should fail)
+    - `rm Shelter`
 1.  Remove all `.txt` files inside `Shelter`
+    - `rm Animals/Shelter/*.txt`
 1.  Remove the directory `Shelter` (this should succeed)
+    - `rm Shelter`
 1.  Now cry because you just deleted those poor tiny animals
+    - `*cry`
 
 ### Permissions
 
@@ -128,7 +138,9 @@ Challenges within each section are meant to be solved in order.
 ### Streams
 
 1.  Print a sentence like `Hello world` into a file named `test.txt`
+    - `echo "Hello world" >> test.txt`
 1.  Append another sentence `Hola Mundo` on a new line of `test.txt`
+    - `echo "Hola Mundo" >> test.txt`
 1.  Print the contents of the file `test.txt`
 1.  Print the contents of the file `numbers.txt`
 1.  Print the first 10 lines in the file `numbers.txt`
